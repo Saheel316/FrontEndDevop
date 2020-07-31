@@ -1,0 +1,708 @@
+@font-face {
+  font-family: geometer;
+  src: url('fonts/geometric 415 black bt.ttf');
+}
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.navbar-brand{
+  width:161px;
+  height:39px;
+  background: transparent url('images/Navbar Logo.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+.navbar{
+  background: #1E88E5 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  top: -60px;
+  left: 0px;
+  padding-bottom: 20px;
+
+}
+
+
+.modal-img{
+  width:84px;
+  height: 84px;
+}
+
+
+.modal-header h5{
+  color:black;
+  font-family: 'geometer';
+  font-size: 22px;
+  padding-left: 25px;
+}
+
+.modal-header p{
+  font-family: 'opensans';
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 992px){
+  .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-xl {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    margin-bottom: -10px;
+  }
+}
+
+
+.navbar-nav li a{
+  padding-top: 4px;
+  margin-top: 4px;
+  color:white !important;
+  /* font-size: 16px; */
+
+  font-weight:500;
+  font-family: 'opensans';
+  opacity: 1;
+}
+
+.navbar-nav{
+  display: flex;
+
+}
+
+.nav-item{
+  flex:1;
+  flex-basis: auto;
+
+}
+
+
+
+.form-group img{
+  width:70px;
+  height:65px;
+}
+
+.text-left li img{
+  border-radius: 50%;
+  display: flex;
+  margin-top: 5px;
+
+}
+
+
+.container-all{
+
+  margin-top: 80px;
+
+}
+
+.text-left li{
+  font-size: 16px;
+  font-family: 'opensans';
+  letter-spacing: 0.4px;
+  word-spacing: 0.3px;
+  display: flex;
+
+}
+
+
+.first_img{
+  width:400px;
+  height: 290px;
+  float: right;
+
+}
+
+.head h2{
+  text-align: left;
+  font-size:24px;
+  font-family: 'geometer';
+  font-style: bold;
+  letter-spacing: 2.4px;
+  color: #42495B;
+  opacity: 1;
+}
+
+
+
+.container{
+  width:100%;
+  /* border:1px solid; */
+  margin-top: 40px;
+  padding-top: 50px;
+
+
+}
+
+.head h1{
+  font-size:54px;
+  font-family: 'geometer';
+  letter-spacing: 5.6px;
+  color: #1E88E5;
+  opacity: 1;
+}
+
+.head h1::after{
+  content: "FOR";
+
+  font-size: 16px;
+  border-radius: 6px;
+  border:1px solid;
+  text-align: center;
+  font-weight: 200;
+  padding:2px 12px;
+  margin-left: 10px;
+
+  font-family: 'geometer';
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
+  opacity:1;
+
+  background: rgb(30,136,229);
+  color:white;
+
+
+}
+
+.head-p{
+  font-size:36px;
+  font-family: 'OpenSans';
+  letter-spacing: 3.6px;
+  color: #42495B;
+  opacity: 1;
+}
+
+
+.desktop-text{
+  width:330px;
+  text-align: left;
+  font-size:18px;
+  font-family: 'OpenSans';
+  letter-spacing: 0px;
+  color: #42495B;
+  opacity: 1;
+
+}
+
+.wrap-it{
+  display: block;
+}
+
+.wrap-it-2{
+  position: absolute;
+  left:380px;
+  top:276px;
+}
+
+
+.first{
+  text-align: left;
+  font-size:18px;
+  font-family: 'OpenSans';
+  letter-spacing: 0.8px;
+  color: #42495B;
+  opacity: 1;
+  margin-bottom: 45px;
+}
+
+
+.health-card{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+.bg{
+  background: #E4F3FF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bg-h3{
+  text-align: center;
+  font-size:36px;
+  font-family: 'OpenSans';
+  font-weight: 100;
+  letter-spacing: 0px;
+  padding-top: 70px;
+  padding-bottom: 35px;
+  color: #42495B;
+  opacity: 1;
+}
+
+.form-group label{
+  text-align: left;
+  font-size:18px;
+  font-family: 'OpenSans';
+  font-weight: bolder;
+  letter-spacing: 0px;
+  color: #42495B;
+  opacity: 1;
+  margin-bottom: 12px;
+}
+
+.card-header{
+  display: none;
+}
+
+.form-section{
+  padding-top: 70px;
+  padding-left: 128px;
+  padding-right: 120px;
+}
+
+.f-c-1{
+  margin-bottom: 39px;
+}
+
+.f-c-2{
+  margin-bottom: 45px;
+}
+
+.form-section img{
+  display: block;
+  margin: auto;
+  width: 54px;
+  height: 54px;
+  margin-bottom:30px;
+}
+
+.form-section input{
+  text-align: left;
+  font-size:16px;
+  font-family:' OpenSans';
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
+
+#exampleFormControlSelect2{
+  margin-bottom: 39px;
+
+}
+
+#exampleFormControlSelect3{
+  margin-bottom: 45px;
+}
+
+#exampleFormControlSelect2 option, #exampleFormControlSelect3 option{
+  text-align: left;
+  font-size:16px;
+  font-family:' OpenSans';
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
+
+.pt-0{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.card-img-top{
+  width:70px;
+  height: 65px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  z-index: 3;
+
+}
+
+.health-cards{
+  padding-top: 40px;
+}
+
+
+
+.circle{
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 38px;
+  left: 82px;
+
+  width: 140px;
+  height: 130px;
+  border-radius: 100%;
+
+  z-index:2;
+  box-shadow: 0 0 4px;
+}
+
+
+.health-cards::after{
+  content: '';
+  position: absolute;
+  /* width: 120px; */
+  /* height: 120px; */
+  top:0px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  background:linear-gradient(167deg, #36D0DC 5%, #1F89E4 34%, #fff 0%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  box-shadow: 3px 3px 6px #0000001A;
+
+}
+
+
+.card-title{
+  font-family: 'OpenSans';
+  font-size:22px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  padding-top: 50px;
+
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+
+.card-text{
+  font-family: 'OpenSans';
+  font-size:18px;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  padding-bottom: 30px;
+  z-index: 1;
+  position: relative;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
+
+.main-cards-container{
+  padding-bottom: 70px;
+}
+
+
+
+
+
+
+@media(max-width:567px){
+
+
+  .modal-header h5{
+
+    font-size: 18px;
+  }
+
+  .modal-header p{
+    font-size: 14px;
+
+  }
+
+
+  .navbar-brand{
+    width:126px;
+    height:30px;
+    background: transparent url('images/Navbar Logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    margin-left: 25px;
+  }
+
+  .navbar-collapse li a{
+    color:white !important;
+    text-decoration: none;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 14px !important;
+  }
+
+  .navbar-collapse li:nth-child(1){
+    margin-top: 20px;
+
+  }
+
+  .navbar{
+    top: -90px;
+    left: 0px;
+    padding-bottom: 10px;
+
+  }
+
+  .modal-img{
+    width:70px;
+    height: 70px;
+  }
+
+  .container-all{
+    margin-top: 46px;
+  }
+
+  .first_img{
+    width:270px;
+    height: 220px;
+    float: none;
+
+  }
+
+
+
+  .head h2{
+    text-align: center;
+    font-size:18px;
+    font-family: 'geometer';
+    letter-spacing: 1.6px;
+    margin-top: 30px;
+
+  }
+
+
+  .head h1{
+    font-size:36px;
+    font-family: 'geometer';
+    letter-spacing: 3.4px;
+  }
+
+  .head h1::after{
+    content: "FOR";
+    font-size: 16px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+
+
+  }
+
+
+  .head-p{
+    font-size:20px;
+    font-family: 'OpenSans';
+    letter-spacing: 1.4px;
+    margin-top:none;
+
+  }
+
+  .text{
+
+    width:100%;
+    padding: 0px 0px;
+    letter-spacing: 0px;
+    font-family: 'opensans';
+    text-align: center;
+    font-size: 14px;
+    padding-left: 8px;
+padding-right: 8px;
+
+  }
+
+  .first{
+    margin-bottom: 25px;
+  }
+
+
+
+  .swap{
+    order:1;
+  }
+
+  .swap-1{
+    order: 2;
+  }
+
+
+  .container{
+    text-align: center;
+  }
+
+
+  .wrap-it-2{
+    position: relative;
+    top:0px;
+    left:0px;
+  }
+
+
+
+.card-body{
+  padding: 0px;
+}
+
+
+
+
+  .head button{
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 4px;
+
+    letter-spacing: 1.4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+  }
+
+  .btn-1{
+    margin-bottom: 38px;
+
+  }
+
+  .btn-2{
+    margin-bottom: 10px;
+  }
+
+
+  .bg{
+
+    padding-bottom: 50px;
+
+    background: #E4F3FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+
+  .bg-h3{
+    font-weight: lighter;
+    padding-bottom: 16px;
+    padding-top: 35px;
+    text-align: center;
+    font-size:28px;
+    font-family: 'OpenSans';
+    letter-spacing: 0px;
+    color: #42495B;
+    opacity: 1;
+  }
+
+  .h3-changed{
+    visibility: hidden;
+    position: relative;
+
+  }
+
+  .h3-changed::after{
+    visibility: visible;
+    content: 'Premium Calculator';
+    position: absolute;
+    left:50px;
+    bottom: 20px;
+
+
+  }
+
+
+  .card-header{
+    display: block;
+    background: transparent linear-gradient(263deg, #36D0DC 0%, #1F89E5 100%) 0% 0% no-repeat padding-box;
+  }
+
+
+  .card-header h4{
+    text-align:left;
+    padding: auto 30px;
+    font-size:18px;
+    font-family: 'OpenSans';
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+
+  .form-section{
+    padding-top: 35px;
+    padding-left: 62px;
+    padding-right: 60px;
+  }
+
+  .f-c-1{
+    margin-bottom: 20px;
+  }
+
+  .f-c-2{
+    margin-bottom: 22px;
+  }
+
+  .form-section img{
+    margin-top: 24px;
+    margin-bottom:35px;
+  }
+
+  .card-img-top{
+    width:75px;
+    height: 70px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    z-index: 3;
+
+  }
+
+  .health-cards{
+    padding-top: 40px;
+    margin-bottom: 36px;
+    padding-bottom: 50px;
+  }
+
+  .health-cards::after{
+    content: '';
+    background: linear-gradient(167deg, #36D0DC 5%, #1F89E4 34%, #fff 0%) 0% 0% no-repeat padding-box;
+
+  }
+
+  .circle{
+
+    top: 34px;
+    left: 84px;
+
+    width: 145px;
+    height: 145px;
+    box-shadow: 0 0 4px;
+
+  }
+
+
+.col-lg-3,.col-sm-12{
+    position: relative;
+    width: 100%;
+    /* padding-right: 25px;
+    padding-left: 25px; */
+}
+
+
+  .card-title{
+    font-family: 'OpenSans';
+    font-size:22px;
+    padding-top: 65px;
+
+
+  }
+
+
+  .card-text{
+    font-family: 'OpenSans';
+    font-size:16px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+
+.fb-logo {
+    margin-right: 70px !important;
+}
+.insta-logo{
+  margin-right: 20px !important;
+
+}
+
+.linked-logo{
+  margin-right: 20px !important;
+}
+
+
+
+
+}

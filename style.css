@@ -1,0 +1,177 @@
+footer {
+  /* background: #16222A; */
+   background: -webkit-linear-gradient(rgba(30,136,229,0.72),rgba(30,136,229,0.72));
+  /* background: linear-gradient(rgba(30,136,229,1),rgba(30,136,229,1)); */
+  background: #1E88E5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: white;
+  /* display: flex; */
+  padding-top: 20px;
+
+}
+
+
+h5{
+
+font-size: 16px;
+
+text-align: left;
+font-family: 'OpenSans';
+font-style: bolder;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.foo-img{
+
+width: 175px;
+ height: 43px;
+
+background: transparent url('images/Navbar Logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 14px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  color: white;
+}
+
+
+.main-icon{
+  display: flex;
+  /* justify-content: space-evenly; */
+  float:right;
+  display: flex;
+  padding-right: 20px;
+
+}
+
+
+.insta-logo{
+  width: 16px;
+height: 16px;
+background: transparent url('images/Path 3.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-right: 10px;
+
+
+
+}
+
+.linked-logo{
+
+  width: 16px;
+height: 16px;
+background: transparent url('images/linkedin.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-right: 10px;
+
+
+
+}
+
+
+.fb-logo{
+  width: 16px;
+  height: 16px;
+  background: transparent url('images/Path 1.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+
+
+}
+
+
+.foo-img{
+
+margin-left: auto;
+display: flex;
+margin-top: 60px;
+
+}
+
+.span{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.span span{
+  text-align: right;
+  font-size:14px;
+  font-family: 'opensans';
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+
+}
+
+
+@media(max-width:480px) and (min-width:360px){
+
+  footer{
+    padding-left: 20px;
+  }
+  .footer-pad{
+    text-align: left;
+  }
+  .foo-img{
+
+  margin-right: auto;
+  display: flex;
+  margin-top: 60px;
+
+  }
+
+.span{
+  display:flex;
+  justify-content: center;
+}
+
+h5{
+  font-size: 14px;
+}
+
+ .list-unstyled li a{
+   font-size: 12px;
+
+ }
+
+ .copy p,.copy{
+   display: none;
+
+ }
+.main-icon{
+  margin-top: 20px;
+}
+.insta-logo{
+   margin-right: 40px;
+}
+
+.linked-logo{
+   margin-right: 40px;
+}
+.fb-logo{
+   margin-right: 120px;
+}
+}
