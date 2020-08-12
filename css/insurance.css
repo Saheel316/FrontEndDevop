@@ -30,70 +30,10 @@ html{
 
 }
 
-.carousel-item img{
-
-  height:434px;
-  width:auto;
-
-
-}
-
-.black-overlay{
-  position: absolute;
-
-  top:0px;
-  left:0px;
-  height: 100%;
-  width: 100%;
-  background: transparent linear-gradient(180deg, #1E88E5CC 0%, #36D1DC 100%) 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-
-
-.carousel-caption{
-    position: absolute;
-    text-align: center;
-     bottom: 25px;
-     height: auto;
-
-   font-family: 'opensans';
-    font-weight: bold;
-
-
-}
-
-.display-4{
-  font-family: 'geometer';
-  font-size:22px;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.lead{
-  font-size:12px;
-  text-align:center;
-  font-weight: 100;
-  font-family: 'geometer';
-  letter-spacing: 0.1px;
-  width: 100%;
-
-}
-
-.nav-indicators li{
-  width:10px;
-  height: 10px;
-  border-radius: 100%;
-  margin-right: 8px;
-}
-
-.carousel-control-prev,.carousel-control-next{
-  display: none;
-}
 
 .modal-img{
-  width:77px;
-  height: 72px;
+  width:84px;
+  height: 84px;
 }
 
 
@@ -452,8 +392,6 @@ html{
 
 
 @media(max-width:567px){
-
-
 
 
   .modal-header h5{
