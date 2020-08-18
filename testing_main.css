@@ -1448,7 +1448,7 @@ td a{
     }
 
     .modal-btn{
-      margin:0px 70px;
+      margin:0px 65px;
 
       font-size:10px;
       font-family:'opensans';
@@ -1674,7 +1674,7 @@ td a{
           position: absolute;
 
           top:-240px;
-          left: 150px;
+          left: 120px;
           margin-top: 4px;
           margin-bottom: 20px;
 
